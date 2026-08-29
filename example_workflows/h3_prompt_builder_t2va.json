@@ -1,0 +1,52 @@
+{
+  "last_node_id": 2,
+  "last_link_id": 0,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "MiniMax3H3PromptBuilder",
+      "pos": [80, 80],
+      "size": [430, 520],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {"name": "prompt", "type": "STRING", "links": null, "slot_index": 0},
+        {"name": "validation_report", "type": "STRING", "links": null, "slot_index": 1}
+      ],
+      "properties": {"Node name for S&R": "MiniMax3H3PromptBuilder"},
+      "widgets_values": [
+        "T2VA",
+        "A ceramic robot with a weathered blue glaze",
+        "A quiet workshop during a rainstorm",
+        "The robot slowly turns toward the window and raises one hand over five seconds",
+        "Slow medium tracking shot",
+        "Warm practical lamps against cool window light",
+        "Continuous natural movement with stable identity",
+        "",
+        "Soft motor movement, rain ambience, and distant thunder",
+        ""
+      ]
+    },
+    {
+      "id": 2,
+      "type": "MiniMax3H3RunSummary",
+      "pos": [570, 80],
+      "size": [360, 360],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [{"name": "run_summary", "type": "STRING", "links": null, "slot_index": 0}],
+      "properties": {"Node name for S&R": "MiniMax3H3RunSummary"},
+      "widgets_values": ["T2VA", "768p class", 5, 42, "None", "Connect the Prompt Builder output here or paste the final prompt."]
+    }
+  ],
+  "links": [],
+  "groups": [],
+  "config": {},
+  "extra": {"ds": {"scale": 1, "offset": [0, 0]}},
+  "version": 0.4
+}
+
