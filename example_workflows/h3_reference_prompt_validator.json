@@ -1,0 +1,55 @@
+{
+  "last_node_id": 2,
+  "last_link_id": 0,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "MiniMax3H3PromptBuilder",
+      "pos": [70, 70],
+      "size": [440, 520],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {"name": "prompt", "type": "STRING", "links": null, "slot_index": 0},
+        {"name": "validation_report", "type": "STRING", "links": null, "slot_index": 1}
+      ],
+      "properties": {"Node name for S&R": "MiniMax3H3PromptBuilder"},
+      "widgets_values": [
+        "REF2VA",
+        "Keep the lead character identity from <Picture 1>",
+        "A rainy neon street based on <Picture 2>",
+        "The character walks toward camera while traffic crosses behind",
+        "Low-angle tracking shot",
+        "Blue and magenta reflections",
+        "Keep facial identity and clothing stable across the shot",
+        "",
+        "Use the rhythm of <Audio 1>; include rain and distant traffic",
+        "<Picture 1> controls identity; <Picture 2> controls environment; <Audio 1> controls pacing only"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "MiniMax3H3PromptValidator",
+      "pos": [560, 70],
+      "size": [380, 300],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {"name": "status", "type": "STRING", "links": null, "slot_index": 0},
+        {"name": "report", "type": "STRING", "links": null, "slot_index": 1}
+      ],
+      "properties": {"Node name for S&R": "MiniMax3H3PromptValidator"},
+      "widgets_values": ["REF2VA", "Paste or connect the final reference-guided prompt here."]
+    }
+  ],
+  "links": [],
+  "groups": [],
+  "config": {},
+  "extra": {"ds": {"scale": 1, "offset": [0, 0]}},
+  "version": 0.4
+}
+
