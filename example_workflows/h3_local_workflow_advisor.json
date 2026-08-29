@@ -1,0 +1,25 @@
+{
+  "last_node_id": 1,
+  "last_link_id": 0,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "MiniMax3H3WorkflowAdvisor",
+      "pos": [100, 100],
+      "size": [430, 330],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [{"name": "advice", "type": "STRING", "links": null, "slot_index": 0}],
+      "properties": {"Node name for S&R": "MiniMax3H3WorkflowAdvisor"},
+      "widgets_values": ["I2VA", 16, 64, "768p class", 5]
+    }
+  ],
+  "links": [],
+  "groups": [],
+  "config": {},
+  "extra": {"ds": {"scale": 1, "offset": [0, 0]}},
+  "version": 0.4
+}
+
