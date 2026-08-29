@@ -1,0 +1,5 @@
+tests/
+release/
+*.pyc
+__pycache__/
+
