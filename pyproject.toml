@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-minimax3-h3-toolkit"
+description = "Local prompt building, validation, workflow guidance, and run summaries for MiniMax H3 workflows in ComfyUI."
+version = "0.1.0"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/jayseanbrambila-del666/ComfyUI-MiniMax3-H3-Toolkit"
+Documentation = "https://minimax3.org/minimax-h3-comfyui?utm_source=comfy_registry&utm_medium=node&utm_campaign=h3_toolkit"
+
+[tool.comfy]
+PublisherId = "minimax3-org"
+DisplayName = "MiniMax H3 Workflow Toolkit"
